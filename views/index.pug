@@ -1,0 +1,62 @@
+doctype html
+html 
+    head
+        title The Dance Academy  
+        style 
+          include ../static/style.css 
+    body
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/img/dancelogo3.png")
+                    | TDA
+                li #[a(href="/")  Home]
+                li #[a(href="/") About ]
+                li #[a(href="/") services] 
+                li #[a(href="/") class info]
+                li #[a(href="/") Contact us]
+                
+        section#introSection 
+                div Welcome To THE DANCE ACADEMY 
+                div.small Live Learn Dance Repeat
+        section#mission 
+                h2 our mission
+                div.card
+                    h3 Dance perfection
+                    div.cardbox
+                        div.cardimg
+                            img(src="/static/img/3.jpg")
+                        div.cardcontent
+                            p Our academy provides the world class dancing skills 
+
+                div.card
+                    h3 Dance the way you like
+                    div.cardbox
+                        div.cardimg
+                            img(src="/static/img/4.jpg")
+                        div.cardcontent
+                            p Our academy provides the world class dancing skills 
+
+
+                div.card
+                    h3 Expert Teaching
+                    div.cardbox
+                        div.cardimg
+                            img(src="/static/img/dancelogo3.png")
+                        div.cardcontent
+                            p Our academy provides the world class dancing skills 
+
+
+        section#sponsorSection 
+                h2 Our sponsors
+                div#sponsors   
+                    img(src="/static/img/logo2.png", alt="sponsor image", class="spimg")
+                    img(src="/static/img/logo3.png", alt="sponsor image", class="spimg")
+                    img(src="/static/img/logo1.png", alt="sponsor image", class="spimg")
+                    img(src="/static/img/logo4.png", alt="sponsor image", class="spimg")
+
+        footer#footer 
+            | Copyright © 2022 TheDanceAcademy@arfainsaba.com | All Copyrights reserved
+
+    script 
+    include ../static/index.js 

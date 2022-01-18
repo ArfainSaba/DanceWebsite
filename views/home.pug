@@ -1,0 +1,48 @@
+extends base1.pug
+
+block scripts 
+    script(src='/static/index.js')
+block style
+    style 
+        include ../static/style.css 
+block content 
+    
+                
+    section#introSection 
+        div Welcome To THE DANCE ACADEMY 
+        div.small Live Learn Dance Repeat
+    section#mission 
+        h2 our mission
+            div.card
+                h3 Dance perfection
+                div.cardbox
+                    div.cardimg
+                        img(src="/static/img/3.jpg")
+                    div.cardcontent
+                        p Our academy provides the world class dancing skills 
+
+            div.card
+                h3 Dance the way you like
+                div.cardbox
+                    div.cardimg
+                        img(src="/static/img/4.jpg")
+                    div.cardcontent
+                        p Our academy provides the world class dancing skills 
+
+
+            div.card
+                h3 Expert Teaching
+                div.cardbox
+                    div.cardimg
+                        img(src="/static/img/dancelogo3.png")
+                    div.cardcontent
+                        p Our academy provides the world class dancing skills 
+
+
+    section#sponsorSection 
+            h2 Our sponsors
+            div#sponsors   
+                img(src="/static/img/logo2.png", alt="sponsor image", class="spimg")
+                img(src="/static/img/logo3.png", alt="sponsor image", class="spimg")
+                img(src="/static/img/logo1.png", alt="sponsor image", class="spimg")
+                img(src="/static/img/logo4.png", alt="sponsor image", class="spimg")

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Luxurious+Roman&family=The+Nautigal&display=swap');
+
+*{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;  
+}
+
+#navbar{
+    background-color: rgb(55, 20, 182);
+    
+    font-family: 'Lora', serif;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    /* background-color: black; */
+    text-decoration: none;
+    /* text-decoration: none; */
+    padding: 13px 30px;
+    font-weight: bold;
+    /* display: flex; */
+}
+
+#navbar li a:hover{
+    color: black;
+    background-color: rgb(207, 204, 200);
+    /* background-color: rgb(180, 172, 172); */
+   
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-left: 50px;
+
+}
+
+#logo img{
+    height:45px;
+        /* filter: invert(1); */
+}
+#introSection{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background: center  / cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    background-color: rgb(167, 79, 79);
+}
+#introsection h2{
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding-top: 12px;
+}
+#sponsorSection{
+    height: 300px;
+    background-color: rosybrown;
+    margin: auto;
+}
+#introSection div.small{
+    font-size: 1rem;
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 15px;
+}
+#mission {
+    height: 404px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    width: 113%;
+}
+#mission h2{
+    font-family:'Lora', serif ;
+    text-align: center;
+    padding: 12px;
+}
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 26%;
+    margin: 23px 25px;
+    height: 219px;
+    background-color: rgb(234, 240, 247);
+}
+.card h3{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardimg{
+    height: 135px;
+    padding-bottom: 0px 14px;
+    margin: 5px 9px;
+    
+}
+.cardimg img{
+    height: inherit;
+}
+#cardcontent p{
+    font-size: 15px;
+    
+
+}
+#sponsors{
+    height: 140px;
+    max-width: 1000px;
+    /* margin: auto; */
+    margin-top: 84px;
+    padding-left: 30px;
+}
+.spimg{
+    height: 80%;
+    margin: 20px;
+    /* padding-top: 36px; */
+
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    background-color: rgb(3, 3, 3);
+    font-size: 20px;
+}

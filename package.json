@@ -1,0 +1,17 @@
+{
+  "name": "dancewebsite",
+  "version": "1.0.0",
+  "description": "this is a website for popular dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arfain Saba",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "pug": "^3.0.2"
+  }
+}
